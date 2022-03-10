@@ -1,0 +1,154 @@
+.header {
+  background: linear-gradient(to bottom, #48eb0f -250%, #fff);
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  position: relative;
+  position: fixed;
+  top: 0;
+}
+
+/* posseのロゴ */
+.logo {
+  width: 200px;
+  height: 55px;
+  line-height: 80px;
+  margin: 0 auto;
+}
+
+/* 公式サイトはこちら */
+.link_official {
+  font-size: 20px;
+  color: black;
+  line-height: 80px;
+  position: absolute;
+  right: 30px;
+}
+/* ここまでheader */
+
+/* 余白 */
+.space {
+  height: 180px;
+}
+
+/* 真ん中よせ */
+.wrapper {
+  width: 470px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+/* タイトル（名前） */
+.title {
+  width: 150px;
+  font-size: 30px;
+  border-bottom: solid;
+  margin-bottom: 45px;
+}
+
+/* 写真 */
+.photo {
+  object-fit: cover;
+  width: 470px;
+  height: 300px;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 20%);
+}
+
+/* 自己紹介Box */
+.introBox {
+  width: 470px;
+  height: 300px;
+  background-color: #3cb371;
+  box-shadow: 0 0 5px 3px #3cb371;
+}
+
+.introTitle {
+  padding-top: 45px;
+  margin: 0 0 45px 30px;
+  width: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.introMessage {
+  margin-left: 45px;
+}
+
+.introMessageElement {
+  line-height: 100%;
+  padding-bottom: 2px;
+  font-size: 20px;
+}
+
+/* 好きな〇〇Box */
+.likeBox{
+  width: 470px;
+  height: 300px;
+  background-color: #cd853f;
+  box-shadow: 0 0 5px 3px #cd853f;
+}
+
+.likeTitle{
+  padding-top: 45px;
+  margin: 0 0 45px 30px;
+  width: 125px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.likes{
+  margin-left: 45px;
+}
+
+.likeElement{
+  line-height: 100%;
+  padding-bottom: 2px;
+  font-size: 20px;
+}
+
+/* ボタン二つの入れ物 */
+.buttonBox {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 押せないボタン */
+.untouchableButton {
+  border: solid 3px #a9a9a9;
+  width: 200px;
+  height: 60px;
+  color: white;
+  background-color: #d3d3d3;
+  font-size: 18px;
+  pointer-events: none;
+}
+
+/* 次へボタン（押せるとき） */
+.nextBtn {
+  border: solid 3px #5d5fef;
+  width: 200px;
+  height: 60px;
+  color: white;
+  background-color: #1e90ff;
+  font-size: 18px;
+}
+
+/* 戻るボタン（押せるとき） */
+.backBtn {
+  border: solid 3px #ef5da8;
+  width: 200px;
+  height: 60px;
+  color: white;
+  background-color: #ee82ee;
+  font-size: 18px;
+}
+
+/* 自己紹介Box,写真が見えてないとき */
+.hiddenBox {
+  display: none;
+}
